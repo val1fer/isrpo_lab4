@@ -21,7 +21,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Run Unit Tests
         run: |
-          python3 test/circle.py
-          python3 test/rectangle.py
-          python3 test/square.py
-          python3 test/triangle.py
+          python3 circle.py
+          python3 rectangle.py
+          python3 square.py
+          python3 triangle.py
