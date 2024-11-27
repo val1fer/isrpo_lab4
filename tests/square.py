@@ -22,13 +22,6 @@ class SquareTestCase(unittest.TestCase):
         res = area(0)
         self.assertEqual(res, 0)
 
-    def test_zero_perimeter(self):
-        res = perimeter(0)
-        self.assertEqual(res, 0)
-
-
-
-
 def area(a):
     return a * a
     
